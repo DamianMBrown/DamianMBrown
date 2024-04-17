@@ -1,7 +1,5 @@
 html{
-	background-image: url(Images/logo.jpg);
-	filter:invert(100%);
-	background-color:;
+	background-image: url(Images/wordsofradiance.jpg);
 }
 td{
 	font-family:Georiga;
@@ -10,10 +8,9 @@ td{
 	
 }
 .container{
-	filter:invert(100%);
 	text-align:center;
 	width:1100px;
-	height:2500px;
+	height:auto;
 	margin:auto;
 	font-family:verdana;
 	background-color:#111320;
@@ -89,7 +86,7 @@ a:hover{
 .content{
 	background-color:#e8eaf6;
 	width:1000px;
-	height:2150px;
+	height:auto;
 	margin-left:50px;
 	margin-right:auto;
 }
@@ -170,6 +167,7 @@ hr{
 table p{
 	color:#152140;
 	text-align:left;
+	font-size:18px;
 }
 #vid{
 	margin-left:135px;
@@ -208,4 +206,19 @@ table p{
 #dead-link a:hover{
 	color:red;
 	
+}
+p{
+	text-align:left;
+	font-family:Georgia;
+	line-height:30px;
+}
+.overview{
+	padding-left:90px;
+	padding-right:90px;
+	
+}
+#inline{
+	width:150px;
+	height:auto;
+	float:left;
 }
